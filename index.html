@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <form>
+                <label for="name">Name</label>
+                <input id="Name" type="text" name="Name">
+
+                <label for="surname">Surname</label>
+                <input id="surname" type="text" name="surname">
+
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age">
+
+                <label for="city">City</label>
+                <select id="city" name="city">
+                    <option value="Baku">Baku</option>
+                    <option value="Sheki">Sheki</option>
+                    <option value="Qax">Qax</option>
+                </select>
+
+                <label for="address">Address</label>
+                <textarea id="address" rows="4" name="address"></textarea>
+
+                <label for="education1">Orta</label>
+                <input id="education1" type="radio" value="mid" name="education">
+
+                <label for="education2">Ali</label>
+                <input id="education2" type="radio" value="high" name="education">
+                
+                <label for="work">Work</label>
+                <input id="work" type="checkbox" name="work">
+
+                <button id="submit">Submit</button>
+            </form>
+        </aside>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Address</th>
+                        <th>Education</th>
+                        <th>Work</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

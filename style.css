@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+}
+
+aside {
+    width: 40%;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+section {
+    width: 60%;
+    padding: 20px;
+    background-color: lightcyan;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), label, select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+label, textarea {
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid red;
+}
+
+#submit {
+    display: block;
+    height: 40px;
+    background-color: gray;
+    margin-top: 20px;
+    border: 0;
+    color: #fff;
+}
